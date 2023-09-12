@@ -44,7 +44,14 @@ To fine-tune the Real-ESRGAN model on the chest X-ray images, follow these steps
 
 
 ## Results
-(Here you can discuss the results you've achieved so far. If possible, include images or charts to illustrate these results.)
+![image](https://github.com/Moneebah/Finetuning_Real-ESRGAN_Pneumonia/assets/129015993/89690e83-2a88-4b87-8309-904aded8083b)
+![image](https://github.com/Moneebah/Finetuning_Real-ESRGAN_Pneumonia/assets/129015993/89ad78f0-8df0-44da-a97a-103d05f8fd8f)
+![image](https://github.com/Moneebah/Finetuning_Real-ESRGAN_Pneumonia/assets/129015993/a8624801-82f1-4c5b-b2da-32f69cf0badd)
+![image](https://github.com/Moneebah/Finetuning_Real-ESRGAN_Pneumonia/assets/129015993/1d2b7b82-afb0-4ada-b983-73ff9062e117)
+
+
+
+
 
 
 
