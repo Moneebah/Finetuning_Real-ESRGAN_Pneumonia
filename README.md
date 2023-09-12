@@ -25,7 +25,7 @@ To set up this project on your local machine, follow these steps:
 1. Clone the pretrained model from this repo: `https://github.com/xinntao/Real-ESRGAN`
 2. Install all dependencies mentioned in the previous repo
 3. Navigate into the cloned repository to the folder: `cd Finetuning_Real-ESRGAN_Pneumonia/experiments`
-4. Download the model from this file in my repo [finetune_pneumonia_RealESRGANx4plus_400k]
+4. Download the model from this file in my repo into the experiments folder `[finetune_pneumonia_RealESRGANx4plus_400k]`
 
 ## Dataset
 The dataset used in this project is a collection of chest X-ray images, both normal and those indicating pneumonia, sourced from Kaggle. You can download it from [this link](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia). 
@@ -64,6 +64,6 @@ To see the finetuning on the Real-ESRGAN model on chest X-ray images, follow the
 
 
 ## Suggestion
-Suggestions are welcome ! Currently working on uploading all necessary files onto the repo so that you can adjust the finetuned model if you want
+Suggestions are welcome ! Currently working on uploading all necessary files onto the repo so that you can adjust the finetuned model's confguration and even have it train further
 
 
