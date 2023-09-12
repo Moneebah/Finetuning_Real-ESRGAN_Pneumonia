@@ -29,17 +29,16 @@ To set up this project on your local machine, follow these steps:
 
 ## Dataset
 The dataset used in this project is a collection of chest X-ray images, both normal and those indicating pneumonia, sourced from Kaggle. You can download it from [this link](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia). 
-Note: The dataset has already been loaded onto the folder dataset > pneumonia > HDtrain
 
 ## Usage
-Perform inference through cli
+Perform inference using finetuned model through cli
 
 1. Place chest xray images in the inputs folder 
-2.  Run the follwing command `!python inference_realesrgan.py --model_path experiments/net_g_latest.pth --input inputs`
+2.  Run the follwing command `python inference_realesrgan.py --model_path experiments/net_g_latest.pth --input inputs`
 3.  See results in the output folder
 
 ## Check Finetuning
-To see the finetuning on the Real-ESRGAN model on chest X-ray images, follow these steps:
+To see how the finetuning was done on the Real-ESRGAN model on chest X-ray images, follow these steps:
 
 1. Open notebook:  [**FinetuneReal-ESRGAN.ipynb**](https://drive.google.com/file/d/1WlEhU71yWW8Iqf0Skh_3y_MAfyv4IDTI/view?usp=sharing)
 2. Follow through notebook to see the process of how the data was finetuned <br>
