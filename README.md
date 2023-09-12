@@ -34,19 +34,22 @@ Note: The dataset has already been loaded onto the folder dataset > pneumonia > 
 To fine-tune the Real-ESRGAN model on the chest X-ray images, follow these steps:
 
 1. Open notebook:  **FinetuneReal-ESRGAN.ipynb** 
-2. Follow through notebook to see the process of how the data was finetuned
-   
-   a. Preprocessing of data
-   
-   b. Finetuning data
-   
+2. Follow through notebook to see the process of how the data was finetuned <br>
+   a. Preprocessing of data <br>
+      Dataset was scaled into three different sizes (0.5, 1/3, 0.18)<br>
+      Dataset was cropped into subimages <br>
+      Meta information was created <br>
+   b. Finetuning data <br>
+      Changes in the configuration file (see notebook) <br>
+      Trained for 3,500 interations
    c. Inference
+      Model inference performed on original and finetuned model
 
 
 ## Results
 ![image](https://github.com/Moneebah/Finetuning_Real-ESRGAN_Pneumonia/assets/129015993/89690e83-2a88-4b87-8309-904aded8083b)
 ![image](https://github.com/Moneebah/Finetuning_Real-ESRGAN_Pneumonia/assets/129015993/89ad78f0-8df0-44da-a97a-103d05f8fd8f)
-![image](https://github.com/Moneebah/Finetuning_Real-ESRGAN_Pneumonia/assets/129015993/a8624801-82f1-4c5b-b2da-32f69cf0badd)
+![image](https://github.com/Moneebah/Finetuning_Real-ESRGAN_Pneumonia/assets/129015993/986d297d-3e6e-40d0-9130-87335a9eea94)
 ![image](https://github.com/Moneebah/Finetuning_Real-ESRGAN_Pneumonia/assets/129015993/1d2b7b82-afb0-4ada-b983-73ff9062e117)
 
 
