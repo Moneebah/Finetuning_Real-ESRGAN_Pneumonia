@@ -22,16 +22,24 @@ This project aims to apply the power of Real-ESRGAN, a state-of-the-art super-re
 
 ## Installation
 To set up this project on your local machine, follow these steps:
-1. Clone this repository: `git clone https://github.com/Moneebah/Finetuning_Real-ESRGAN_Pneumonia.git`
-2. Navigate into the cloned repository: `cd Finetuning_Real-ESRGAN_Pneumonia`
-3. Install the necessary dependencies: Python >= 3.7 (Recommend to use Anaconda or Miniconda), PyTorch >= 1.7
+1. Clone the pretrained model from this repo: `https://github.com/xinntao/Real-ESRGAN`
+2. Install all dependencies mentioned in the previous repo
+3. Navigate into the cloned repository to the folder: `cd Finetuning_Real-ESRGAN_Pneumonia/experiments`
+4. Download the model from this file in my repo [finetune_pneumonia_RealESRGANx4plus_400k]
 
 ## Dataset
 The dataset used in this project is a collection of chest X-ray images, both normal and those indicating pneumonia, sourced from Kaggle. You can download it from [this link](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia). 
 Note: The dataset has already been loaded onto the folder dataset > pneumonia > HDtrain
 
 ## Usage
-To fine-tune the Real-ESRGAN model on the chest X-ray images, follow these steps:
+Perform inference through cli
+
+1. Place chest xray images in the input folder
+2.  Run the follwing command `!python inference_realesrgan.py --model_path experiments/finetune_pneumonia_RealESRGANx4plus_400k/models/net_g_latest.pth --input inputs`
+3.  See results in the output folder
+
+## Check Finetuning
+To see the finetuning on the Real-ESRGAN model on chest X-ray images, follow these steps:
 
 1. Open notebook:  [**FinetuneReal-ESRGAN.ipynb**](https://drive.google.com/file/d/1WlEhU71yWW8Iqf0Skh_3y_MAfyv4IDTI/view?usp=sharing)
 2. Follow through notebook to see the process of how the data was finetuned <br>
@@ -55,6 +63,7 @@ To fine-tune the Real-ESRGAN model on the chest X-ray images, follow these steps
 
 
 
-
+## Suggestion
+Suggestions are welcome ! Currently working on uploading all necessary files onto the repo so that you can adjust the finetuned model if you want
 
 
