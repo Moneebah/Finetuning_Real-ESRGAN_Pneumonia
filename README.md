@@ -1,10 +1,12 @@
 # Fine-tuning Real-ESRGAN on Chest X-Ray Images
 
 This project involves fine-tuning the Real-ESRGAN model (originally developed by Xinntao) on a Kaggle dataset of chest X-ray images. The dataset includes both normal and pneumonia X-ray images. <br>
-Currently, the Real-ESRGAN model is not suited for xray images whereby the images lose the details (necessary in case of detecting pneumonia and other details) and is simple over sharpened. <br>
+Currently, the Real-ESRGAN model is not suited for xray images whereby the images lose the details (necessary in case of detecting pneumonia and other diseases) and is simple over sharpened. <br>
 To account for this, this model was finetuned to better fit chest xray data 
 
-![image](https://github.com/Moneebah/Finetuning_Real-ESRGAN_Pneumonia/assets/129015993/067ff5f8-d313-4b40-a4e1-da18b2a6827b)
+![image](https://github.com/Moneebah/Finetuning_Real-ESRGAN_Pneumonia/assets/129015993/99c9f42a-a55a-465b-b107-aaced42b59c1)
+![image](https://github.com/Moneebah/Finetuning_Real-ESRGAN_Pneumonia/assets/129015993/8f9d6a64-f53f-413e-bb47-38c35243d467)
+
 
 
 ## Table of Contents
