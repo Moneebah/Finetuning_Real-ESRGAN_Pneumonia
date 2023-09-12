@@ -26,10 +26,13 @@ Note: The dataset has already been loaded onto the folder dataset > pneumonia > 
 ## Usage
 To fine-tune the Real-ESRGAN model on the chest X-ray images, follow these steps:
 
-1. Open notebook:  **FinetuneReal-ESRGAN.ipynb** `python preprocess.py --input_dir path/to/your/images --output_dir path/to/save/preprocessed/images`
+1. Open notebook:  **FinetuneReal-ESRGAN.ipynb** 
 2. Follow through notebook to see the process of how the data was finetuned
+   
    a. Preprocessing of data
+   
    b. Finetuning data
+   
    c. Inference
 
 
