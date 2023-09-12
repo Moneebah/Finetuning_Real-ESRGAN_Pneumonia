@@ -5,7 +5,7 @@ Currently, the Real-ESRGAN model is not suited for xray images whereby the image
 To account for this, this model was finetuned to better fit chest xray data 
 
 ![image](https://github.com/Moneebah/Finetuning_Real-ESRGAN_Pneumonia/assets/129015993/99c9f42a-a55a-465b-b107-aaced42b59c1)
-![image](https://github.com/Moneebah/Finetuning_Real-ESRGAN_Pneumonia/assets/129015993/8f9d6a64-f53f-413e-bb47-38c35243d467)
+![image](https://github.com/Moneebah/Finetuning_Real-ESRGAN_Pneumonia/assets/129015993/bf514d94-5b14-44fc-b6cb-8db720ec2bc5)
 
 
 
