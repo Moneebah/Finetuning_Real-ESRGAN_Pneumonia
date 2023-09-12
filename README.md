@@ -41,7 +41,7 @@ To fine-tune the Real-ESRGAN model on the chest X-ray images, follow these steps
       Meta information was created <br>
    b. Finetuning data <br>
       Changes in the configuration file (see notebook) <br>
-      Trained for 3,500 interations
+      Trained for 3,500 interations <br>
    c. Inference
       Model inference performed on original and finetuned model
 
