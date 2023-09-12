@@ -33,7 +33,7 @@ Note: The dataset has already been loaded onto the folder dataset > pneumonia > 
 ## Usage
 To fine-tune the Real-ESRGAN model on the chest X-ray images, follow these steps:
 
-1. Open notebook:  **FinetuneReal-ESRGAN.ipynb** 
+1. Open notebook:  [**FinetuneReal-ESRGAN.ipynb**](https://drive.google.com/file/d/1WlEhU71yWW8Iqf0Skh_3y_MAfyv4IDTI/view?usp=sharing)
 2. Follow through notebook to see the process of how the data was finetuned <br>
    a. Preprocessing of data <br>
       Dataset was scaled into three different sizes (0.5, 1/3, 0.18)<br>
